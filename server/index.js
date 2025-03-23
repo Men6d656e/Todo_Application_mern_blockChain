@@ -66,6 +66,11 @@ app.get("/api/etherum/view-all-task", async (req,res) => {
   }
 })
 
+app.post("/api/ethurem/create-task",async (req, res) => {
+  
+})
+
+
 
 
 app.listen(3001,()=>{
